@@ -3,5 +3,5 @@ This is part of the code for the paper ["Effective Aesthetics Prediction with Mu
 
 Multi-level Spatially-Pooled (MLSP) features are used to train predictors on the AVA aesthetics database.
 
-The code currently deals with narrow MLSP features. MLSP-trained models are included.
+The code shows how to train models based on both narrow and wide MLSP features. Several models trained on AVA are included.
 
