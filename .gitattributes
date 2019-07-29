@@ -1,2 +1,4 @@
 models/ filter=lfs diff=lfs merge=lfs -text
 *.h5 filter=lfs diff=lfs merge=lfs -text
+models/irnv2_mlsp_wide_orig/ filter=lfs diff=lfs merge=lfs -text
+models/irnv2_mlsp_wide_orig/model_best_weights.h5 filter=lfs diff=lfs merge=lfs -text
