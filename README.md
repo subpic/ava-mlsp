@@ -20,7 +20,7 @@ Demo Python 2.7 notebooks:
 
 - Train on wide MLSP features (5&times;5&times;16k) from InceptionResNet-v2 without augmentation.
 
-**`predict_mlsp_wide.ipynb`**
+**`predict_mlsp_wide.ipynb` ([open on google colab](bit.ly/2lPTWyH))**
 
 - Assembles pre-trained [model](https://github.com/subpic/ava-mlsp/tree/master/models) that predicts scores directly from images (rather than saved MLSP features).
 
