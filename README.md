@@ -2,7 +2,7 @@
 
 This is part of the code for the paper ["Effective Aesthetics Prediction with Multi-level Spatially Pooled Features"](http://openaccess.thecvf.com/content_CVPR_2019/papers/Hosu_Effective_Aesthetics_Prediction_With_Multi-Level_Spatially_Pooled_Features_CVPR_2019_paper.pdf). The included notebooks rely on the [kutils library](https://github.com/subpic/kutils).
 
-Multi-level Spatially-Pooled (MLSP) features extracted from ImageNet pre-trained Inception-type networks are used to train aesthetics score (MOS) predictors on the Aesthetic Visual Analysis (AVA) database. The code shows how to train models based on both narrow and wide MLSP features. Several fully trained [models](https://github.com/subpic/ava-mlsp/tree/master/models) are included, together with demos on how to apply them on new images.
+Multi-level Spatially-Pooled (MLSP) features extracted from ImageNet pre-trained Inception-type networks are used to train aesthetics score (MOS) predictors on the Aesthetic Visual Analysis (AVA) database. The code shows how to train models based on both narrow and wide MLSP features. Several fully trained [models](https://github.com/subpic/ava-mlsp/tree/master/models) are included, together with demos on how to apply them on new images. The models are stored with git LFS, and they can be [downloaded from here](https://osf.io/ubps5/files/) as well.
 
 ## Overview
 
@@ -27,6 +27,3 @@ Demo Python 2.7 notebooks:
 **`metadata/AVA_data_official_test.csv`**
 
 - Contains image meta-data, including file names, corresponding scores, resolutions and the membership in the [test](https://github.com/mtobeiyf/ava_downloader/blob/master/AVA_dataset/aesthetics_image_lists/generic_test.jpgl)/validation/train split.
-
-
-The models are stored on git LFS, and they can be [downloaded from here](https://osf.io/ubps5/files/) as well.
