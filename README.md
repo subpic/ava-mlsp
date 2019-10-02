@@ -28,3 +28,5 @@ Demo Python 2.7 notebooks:
 
 - Contains image meta-data, including file names, corresponding scores, resolutions and the membership in the [test](https://github.com/mtobeiyf/ava_downloader/blob/master/AVA_dataset/aesthetics_image_lists/generic_test.jpgl)/validation/train split.
 
+
+The models are stored on git LFS, and they can be [downloaded from here](https://osf.io/ubps5/files/) as well.
