@@ -12,9 +12,24 @@ This is part of the code for the paper ["Effective Aesthetics Prediction with Mu
 ```
 Multi-level Spatially-Pooled (MLSP) features extracted from ImageNet pre-trained Inception-type networks are used to train aesthetics score (MOS) predictors on the Aesthetic Visual Analysis (AVA) database. The code shows how to train models based on both narrow and wide MLSP features. Several fully trained [models](https://github.com/subpic/ava-mlsp/tree/master/models) are included, together with demos on how to apply them on new images. The models are stored with git LFS, and they can be [downloaded from here](https://osf.io/ubps5/files/) as well. The included notebooks rely on the [kutils library](https://github.com/subpic/kutils).
 
+## Deployment
+
+There are several options to run the code:
+
+1. Create your own Python environment:
+```
+Python 2.7.16
+tensorflow-gpu 1.14.0
+keras-gpu 2.2.4
+```
+
+2. Run it on google colab, see [example notebook](http://bit.ly/2lPTWyH) for prediction.
+
+3. Deploy the code via the Dockerimage in [jupyter-data-science](https://github.com/subpic/jupyter-data-science), with the Python 2 environment.
+
 ## Overview
 
-Demo Python 2.7 notebooks:
+The following files are included:
 
 **`extract_mlsp.ipynb`**:
 
