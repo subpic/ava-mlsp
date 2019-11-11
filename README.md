@@ -1,6 +1,6 @@
 # MLSP feature learning on AVA 
 
-This is part of the code for the paper ["Effective Aesthetics Prediction with Multi-level Spatially Pooled Features"](http://openaccess.thecvf.com/content_CVPR_2019/papers/Hosu_Effective_Aesthetics_Prediction_With_Multi-Level_Spatially_Pooled_Features_CVPR_2019_paper.pdf). Please cite the following paper if use the code:
+This is part of the code for the paper ["Effective Aesthetics Prediction with Multi-level Spatially Pooled Features"](http://openaccess.thecvf.com/content_CVPR_2019/papers/Hosu_Effective_Aesthetics_Prediction_With_Multi-Level_Spatially_Pooled_Features_CVPR_2019_paper.pdf). Please cite the following paper if you use the code:
 
 ```
 @inproceedings{hosu2019effective,
