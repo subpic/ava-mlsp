@@ -23,7 +23,7 @@ tensorflow-gpu 1.14.0
 keras-gpu 2.2.4
 ```
 
-2. Run it on google colab, see [example notebook](http://bit.ly/2lPTWyH) for prediction.
+2. Run it on google colab, see [example notebook (py3)](https://bit.ly/AVA-MLSP) for prediction.
 
 3. Deploy the code via the Dockerimage in [jupyter-data-science](https://github.com/subpic/jupyter-data-science), with the Python 2 environment.
 
@@ -43,7 +43,7 @@ The following files are included:
 
 - Train on wide MLSP features (5&times;5&times;16k) from InceptionResNet-v2 without augmentation.
 
-**`predict_mlsp_wide.ipynb` ([open on google colab](http://bit.ly/2lPTWyH))**
+**`predict_mlsp_wide.ipynb` ([open on google colab (py3)](https://bit.ly/AVA-MLSP))**
 
 - Assembles pre-trained [model](https://github.com/subpic/ava-mlsp/tree/master/models) that predicts scores directly from images (rather than saved MLSP features).
 
